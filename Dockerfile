@@ -13,7 +13,7 @@ RUN export uid=1000 gid=1000 && \
 
 RUN apt-get install -y firefox
 
-RUN apt-get install -y curl libnss3-tools
+RUN apt-get install -y curl libnss3-tools zenity
 
 RUN curl -o /tmp/warsaw_setup_64.deb 'https://guardiao.itau.com.br/warsaw/warsaw_setup_64.deb'
 
